@@ -1,0 +1,21 @@
+import java.sql.*;
+public class InsertExample {
+public static void main(String[] args) {
+try {
+// Load JDBC driver
+Class.forName("com.mysql.cj.jdbc.Driver");
+// Connect to database
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/24WH1A05B3",
+"root", "1234");
+// Create statement and execute insert query
+Statement stmt = con.createStatement();
+stmt.executeUpdate("INSERT INTO students (id, n) VALUES (1, 'John Doe')");
+// Close connection
+con.close();
+}
+
+catch (Exception e) {
+e.printStackTrace();
+}
+}
+}
