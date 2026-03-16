@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Elite E-Books | Catalog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+<div class="navbar">
+<div>
+<h2>BookStore</h2>
+<small>ID: 24WH1A05Q8</small>
+</div>
+<div>
+<a href="index.html">Catalog</a>
+<a href="cart.html">Cart</a>
+<a href="login.html">Login</a>
+<a href="signup.html">Signup</a>
+</div>
+</div>
+<div class="catalog-container">
+<h1>Digital Library</h1>
+<div class="book-grid">
+<div class="book-card">
+<h3>Java Programming</h3>
+<p>₹500</p>
+<button>Add to Cart</button>
+</div>
+<div class="book-card">
+<h3>Python Basics</h3>
+<p>₹400</p>
+<button>Add to Cart</button>
+</div>
+<div class="book-card">
+<h3>Web Development</h3>
+<p>₹600</p>
+<button>Add to Cart</button>
+</div>
+<div class="book-card">
+<h3>Node JS</h3>
+<p>₹500</p>
+<button>Add to Cart</button>
+</div>
+<div class="book-card">
+<h3>Data Structures</h3>
+<p>₹700</p>
+<button>Add to Cart</button>
+</div>
+</div>
+</div>
+</body>
+</html>
+
