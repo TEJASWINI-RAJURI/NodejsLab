@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Student Portfolio</title>
+<!-- Bootstrap CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+rel="stylesheet"
+/>
+<!-- Optional: Bootstrap Icons -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navMenu"
+>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- HOME SECTION -->
+<section id="home" class="py-5 text-center bg-light">
+<div class="container">
+<img
+src="default_image.png"
+alt="Profile"
+class="profile-img rounded-circle mb-3"
+/>
+
+<h1 class="display-4">STUDENT NAME</h1>
+<p class="lead">Student at XYZ University | Batch of 2027</p>
+</div>
+</section>
+<!-- ABOUT ME -->
+<section id="about" class="py-5">
+<div class="container">
+<h2 class="mb-4">About Me</h2>
+<p>
+Hello! I am a dedicated student passionate about technology, learning
+new skills, and solving real-world problems through innovation.
+</p>
+</div>
+</section>
+<!-- EDUCATION -->
+<section id="education" class="py-5 bg-light">
+<div class="container">
+<h2 class="mb-4">Education</h2>
+<div class="table-responsive">
+<table class="table table-striped align-middle">
+<thead>
+<tr>
+<th>S.NO</th>
+<th>INSTITUTE</th>
+<th>COURSE</th>
+<th>YEAR</th>
+<th>RESULT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>XYZ University</td>
+<td>B.Tech in Computer Science</td>
+<td>2023–2027</td>
+<td>9.5 CGPA</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ABC Junior College</td>
+<td>Intermediate (MPC)</td>
+<td>2021–2023</td>
+<td>97%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>LMN High School</td>
+<td>SSC</td>
+<td>2019–2021</td>
+<td>10 GPA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</section>
+<!-- PROJECTS -->
+<section id="projects" class="py-5">
+<div class="container">
+<h2 class="mb-4">Projects</h2>
+<div class="row g-4">
+<div class="col-md-6">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Simple Calculator App</h5>
+<p class="card-text"><strong>First Year, First Semester</strong></p>
+<p class="card-text">
+Designed and implemented a basic calculator using Python that
+supports addition, subtraction, multiplication, and division.
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Library Management System</h5>
+<p class="card-text"><strong>First Year, Second Semester</strong></p>
+<p class="card-text">
+Developed a library management application in Java that allows
+adding, issuing, and returning books. Led the backend dev.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SKILLS -->
+<section id="skills" class="py-5 bg-light">
+<div class="container">
+<h2 class="mb-4">Skills</h2>
+<ul class="list-inline">
+<li class="list-inline-item badge bg-primary text-white p-2 m-1">C Programming</li>
+<li class="list-inline-item badge bg-primary text-white p-2 m-1">Python</li>
+<li class="list-inline-item badge bg-primary text-white p-2 m-1">Java</li>
+<li class="list-inline-item badge bg-primary text-white p-2 m-1">HTML &amp; CSS</li>
+<li class="list-inline-item badge bg-primary text-white p-2 m-1">MySQL</li>
+</ul>
+</div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+<div class="container">
+<h2 class="mb-4">Contact</h2>
+<ul class="list-unstyled">
+<li><i class="bi bi-envelope-fill"></i> student@example.com</li>
+<li><i class="bi bi-linkedin"></i>
+<a href="https://www.linkedin.com/in/student-profile/">LinkedIn Profile</a>
+
+</li>
+<li><i class="bi bi-github"></i>
+<a href="https://github.com/student-profile">GitHub Repository</a>
+</li>
+<li><i class="bi bi-code-slash"></i>
+<a href="https://leetcode.com/student-profile/">LeetCode Profile</a>
+</li>
+</ul>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="text-center py-4 bg-dark text-white">
+<div class="container">
+<small>&copy; 2025 STUDENT NAME. All rights reserved.</small>
+</div>
+</footer>
+<!-- Bootstrap JS Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
